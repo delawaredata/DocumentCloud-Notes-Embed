@@ -40,5 +40,6 @@ $(document).ready(function(){
 		.css('font-style','italic')
 		.append("<img src='http://php.delawareonline.com/common/third-party/document-cloud/img/document-icon.png' style='margin:0 3px;'>");
 	});
-	$(".ody-sub-filed").append("<br><li>Click <img src='http://php.delawareonline.com/common/third-party/document-cloud/img/document-icon.png' /> icons to preview documents in the story.</li>");
+	// The following line adds a key with the document icon. The jQuery selector is going to be site specific, so adjust accordingly.
+	// $(".ody-sub-filed").append("<br><li>Click <img src='http://php.delawareonline.com/common/third-party/document-cloud/img/document-icon.png' /> icons to preview documents in the story.</li>");
 });
